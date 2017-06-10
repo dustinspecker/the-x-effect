@@ -21,7 +21,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'The X Effect'
+      title: 'The X Effect',
+      template: './src/index.ejs'
     })
   ],
   devServer: {
