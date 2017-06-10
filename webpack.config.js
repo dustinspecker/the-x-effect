@@ -12,5 +12,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'The X Effect'
     })
-  ]
+  ],
+  devServer: {
+    contentBase: './dist'
+  }
 }
