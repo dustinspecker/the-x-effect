@@ -1,0 +1,9 @@
+{
+  extends: [
+    'dustinspecker/esnext',
+    'dustinspecker/react'
+  ],
+  rules: {
+    'no-extra-parens': 0
+  }
+}
