@@ -1,4 +1,5 @@
+import App from './components/app'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(<div>{'hello'}</div>, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
