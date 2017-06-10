@@ -1,3 +1,4 @@
-'use strict'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log('hello')
+ReactDOM.render(<div>{'hello'}</div>, document.getElementById('root'))
