@@ -1,0 +1,9 @@
+{
+  "name": "the-x-effect",
+  "version": "0.0.0",
+  "description": "A webapp for tracking new habits",
+  "main": "index.js",
+  "repository": "dustinspecker/the-x-effect",
+  "author": "Dustin Specker <DustinSpecker@DustinSpecker.com>",
+  "license": "MIT"
+}
