@@ -1,6 +1,7 @@
+import Card from '../card/'
 import React from 'react'
 
 const App = () =>
-  <div>{'hello'}</div>
+  <Card title='test' />
 
 export default App
