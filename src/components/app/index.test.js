@@ -3,7 +3,7 @@ import React from 'react'
 import {shallow} from 'enzyme'
 
 describe('App', () => {
-  test('renders', () => {
+  it('renders', () => {
     const component = shallow(
       <App />
     )
