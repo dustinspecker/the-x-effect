@@ -6,7 +6,7 @@ module.exports = {
   entry: {
     app: [
       'react-hot-loader/patch',
-      './src/index.js'
+      './app/index.js'
     ]
   },
   output: {
@@ -29,7 +29,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'The X Effect',
-      template: './src/index.ejs'
+      template: './app/index.ejs'
     })
   ],
   devServer: {
